@@ -1,0 +1,20 @@
+.main__footer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top: 1px solid var(--principal-media);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__footer i {
+    color: var(--principal-media);
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+.main__footer i:hover {
+    color: var(--principal-escura);
+    transform: scale(1.3);
+}

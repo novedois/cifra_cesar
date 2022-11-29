@@ -1,0 +1,17 @@
+.botao {
+    width: 48%;
+    padding: 10px;
+    background: var(--principal-media);
+    border: none;
+    cursor: pointer;
+    transition: .65s;
+    color: var(--branco);
+}
+
+.botao:hover {
+    background-color: var(--principal-escura);
+}
+
+#copiar {
+    margin-top: 15px;
+}

@@ -1,0 +1,10 @@
+.formulario__input__texto {
+    padding: 10px;
+    width: 100%;
+}
+
+.formulario__caixa__botoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}

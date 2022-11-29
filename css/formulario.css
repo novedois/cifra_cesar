@@ -1,0 +1,23 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__label {
+    font-family: var(--open);
+}
+
+.formulario__aviso {
+    font-family: var(--open);
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid var(--principal-clara);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid var(--principal-media);
+}

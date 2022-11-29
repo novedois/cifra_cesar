@@ -1,0 +1,12 @@
+.formulario__caixa__chave {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario__input__numero {
+    padding: 10px;
+    width: 40%;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="icon.png">
+	<title>Cifra de César</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/botoes.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/formulario_chave.css">
+	<link rel="stylesheet" href="css/formulario_mensagem.css">
+	<link rel="stylesheet" href="css/formulario_retorno.css">
+	<link rel="stylesheet" href="css/titulos.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="container">
+				<h1 class="titulo">Cifra de César</h1>
+
+				<div class="formulario">
+					
+                    <div class="formulario__caixa__mensagem">
+                        <label for="texto" class="formulario__label label_1">Digite a mensagem</label>
+                        <p class="formulario__aviso">Apenas minúsculas e espaço (sem caracteres especiais)</p>
+                        <input type="text" name="texto" id="texto" class="formulario__input__texto">
+                    </div>
+					
+                    <div class="formulario__caixa__chave">
+                        <label for="chave" class="formulario__label">Digite a chave (1 - 26)</label>
+                        <input type="number" name="chave" id="chave" class="formulario__input__numero" min="1" max="26">
+                    </div>
+					
+                    <div class="formulario__caixa__botoes">
+						<button id="botao_criptografar" class="botao formulario__caixa__botao">Criptografar</button>
+						<button id="botao_descriptografar" class="botao formulario__caixa__botao">Descriptografar</button>
+					</div>
+
+					<h2 class="formulario__subtitulo">Mensagem descriptografada</h2>
+					
+					<div class="formulario__retorno">
+						<input type="text" name="descriptografada" id="descriptografada" class="formulario__input__texto formulario__input__resultado">
+						<button id="copiar" class="botao formulario__botao__copiar">Copiar</button>
+					</div>
+
+				</div>
+
+				<div class="main__footer">
+					<a href="https://github.com/Azoubs" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/filipe-azoubel-79393822a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://twitter.com/cybermangue" target="_blank"><i class="fab fa-twitter"></i></i></a>
+				</div>
+
+			</div>
+		</main>
+
+		
+		<script src="js/verificaInput.js"></script>
+		<script src="js/criptografa.js"></script>
+		<script src="js/descriptografa.js"></script>
+		<script src="js/copia.js"></script>
+		<script src="js/main.js"></script>
+		
+	</div>
+</body>
+
+</html>
