@@ -7,15 +7,15 @@
 
 /* --- Variáveis --- */
 :root {
-    --principal-clara: #4cc2f8;
-    --principal-media: #1290f0;
-    --principal-escura: #06436b;
-    --principal-escura-puls: #01243f;
+    --principal-clara: #1f5f5b;
+    --principal-media: #06373a;
+    --principal-escura: #032d2f;
+    --principal-escura-puls: #0b312e;
 
 	--preto: #111;
-	--branco: #F4FDFF;
-	--claro-principal: #f5f5f5;
-	--claro-secundario: #f7f7fa;
+	--branco: #f4fff7;
+	--claro-principal: #d3efd3;
+	--claro-secundario: #c0eecb;
 
 	--mont: 'Montserrat', sans-serif;
 	--hurri: 'Hurricane';
